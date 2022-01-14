@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Homework 2 Elina.09.01</title>
+    </head>
+    <style>
+        .answer.show{
+            display: inline;
+        }
+        .answer{
+            display: none;
+        }
+    </style>
+    <body>
+
+
+
+    <input id="add-item-btn" type="button" value="+" onclick="addDiv()">
+    <div id="container"></div>
+    <br>
+    <br>
+
+
+    <div id="container2"></div>
+    <button id="start">Start</button> |
+    <button id="stop">Stop</button>
+
+    <br>
+    <br>
+    <br>
+
+    <div>
+
+    <h3 id='showTime'></h3>
+
+    </div>
+    <button id="btnStart">Start</button>
+    <button id="BtnPause">Pause</button>
+    <button id="BtnReset">Reset</button>
+
+    <br>
+    <br>
+    <br>
+   <form>
+      <input type="text" name="username" id="username" onkeyup="isEmpty()" minlength="6" /><br><br>
+      <input type="text" name="password" id = "password" onkeyup="isEmpty()" minlength="6"/><br><br>
+      <input type="submit" value="Log in"  id="submit" disabled />
+   </form>
+    <br>
+    <br>
+    <br>
+
+    <p class="question">
+    Висит груша - нельзя скушать.
+    <span class="answer">Лампочка</span>
+    </p>
+    <button class="btn">show</button>
+    <p class="question">
+    С луком с яйцами, но не пирожок?
+    <span class="answer">Робин Гуд</span>
+    </p>
+    <button class="btn">show</button>
+    <p class="question">
+    Один глаз, один рог, но не носорог?
+    <span class="answer">Корова из-за угла выглядывает</span>
+    </p>
+    <button class="btn">show</button>
+
+
+
+    </body>
+    <script src="tasks.js"></script>
+    </html>

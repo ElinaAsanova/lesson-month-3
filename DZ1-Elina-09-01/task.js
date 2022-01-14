@@ -38,16 +38,17 @@ document.querySelectorAll('p').forEach((elem) => {
 });
 
 ///5
-// let el = document.getElementById("todo-list")
-//
-// const el2 = ['Milk 1 l', 'Cola 1.5 l.', 'Bread', 'Cheese', 'Chocolate bar'];
-// for (let i = 0; i < el2.length; i++) {
-//     let li = document.createElement('li')
-//     el.removeChild(el.lastElementChild)
-//     el.children[1].remove();
-// }
+let food = document.querySelectorAll(".item")
+let div = document.createElement("div")
+div.innerText = 'Canned Fish'
+let span = document.createElement('span')
+span.innerText = 'x4'
 
+div.appendChild(span)
+food[1].remove()
+food[4].replaceWith(div)
 
+//////////////6
 let ul = document.createElement('ul');
     document.body.append(ul);
 
