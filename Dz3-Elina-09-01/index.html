@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dz3-Elina</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+
+
+        <ul id="tasks">
+            <div class="container">
+                <h1 id="myHeader">TO DO List</h1>
+
+             </div>
+
+            <hr>
+            <div class="container">
+                <input type="button" id="AddButton" placeholder="enter task" value="Add" onclick="addTask()">
+                <input type="text" id="input" placeholder="enter task" value=" ">
+            </div>
+
+
+            <li>
+                <input type="button" class="done" onclick="markDone(this.parentNode)"
+                value="&#x2713;" />
+                <input type="button" class="remove" onclick="remove(this.parentNode)"
+                value="&#x2715;" />
+                make todo list
+            </li>
+
+        </ul>
+
+
+
+        </body>
+    <script src="Todolist.js"></script>
+    </html>

@@ -1,0 +1,61 @@
+
+ul {
+    padding-left: 20px;
+    background-color: blanchedalmond;
+}
+li {
+    list-style-type: none;
+    background-color: grey;
+    border: 1px solid #c3c3c3;
+    padding: 10px 0 10px 5px;
+}
+
+
+li.finished {
+    background-color: green;
+}
+
+
+input[type="text"] {
+
+
+    font-size: 18px;
+    width: 94%;
+    padding: 10px;
+
+}
+
+input[type="button"] {
+    font-size: 1.2em;
+
+}
+#addButton {
+
+    padding: 10px;
+    background-color: grey;
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 50px;
+    border: 2px solid sandybrown;
+    background-color: grey;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
